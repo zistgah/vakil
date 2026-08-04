@@ -1,0 +1,26 @@
+name: Submit a case scenario
+description: Propose a litigation scenario for the simulation
+title: "[Case] "
+labels: ["case", "scenario"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        vakil is at skeleton stage. Case scenarios submitted here will seed the
+        simulation design. Do not include real personal data or privileged material.
+  - type: input
+    id: title
+    attributes: { label: Case title }
+    validations: { required: true }
+  - type: textarea
+    id: facts
+    attributes: { label: Facts / scenario, description: Neutral, hypothetical facts }
+    validations: { required: true }
+  - type: textarea
+    id: questions
+    attributes: { label: Legal questions at issue }
+  - type: dropdown
+    id: ai
+    attributes:
+      label: Reviewer
+      options: ["human-only (legal)", "Claude (analysis)", "Gemini (alternatives)"]

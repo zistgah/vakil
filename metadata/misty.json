@@ -1,0 +1,8 @@
+{
+  "title": "vakil - litigation simulation (skeleton)",
+  "description": "Skeleton repository for the litigation-simulation surface of the Zistgah estate. Placeholder stage; case scenarios collected via issues.",
+  "license": "gpl-3.0",
+  "upload_type": "software",
+  "version": "0.0.1",
+  "creators": [{ "name": "Choudhary, Abhishek", "affiliation": "AyeAI", "orcid": "0009-0002-0684-8320" }]
+}
