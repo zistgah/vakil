@@ -1,0 +1,18 @@
+{
+    "_type": "https://in-toto.io/Statement/v1",
+    "predicateType": "https://project-ilm.org/attestations/candor/v1",
+    "subject": [
+        {
+            "name": "zistgah/vakil",
+            "digest": {
+                "gitCommit": "326df461ab7791b5615a65432250a97a5fb5eb50"
+            }
+        }
+    ],
+    "predicate": {
+        "action": "PUSH",
+        "reason": "seed",
+        "utc": "20260804T045035Z",
+        "host": "ilm01-lin"
+    }
+}
